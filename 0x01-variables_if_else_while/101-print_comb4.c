@@ -2,12 +2,13 @@
 
 /**
  * main - Entry Point
- * 
+ *
  * this program prints all possible different
  *combination of two digits
  *
  * Return: Always 0
  */
+int main(void)
 {
 	int start = 48; /* 0 */
 	int end = 57; /* 9 */
