@@ -1,41 +1,20 @@
-#include  "main.h"
-
-#include  <string.h>
-
-
-
-
+#include "main.h"
 
 /**
- *
- *  *  main - entry point
- *
- *   *
- *
- *    *   print '_putchar' followed by a new line
- *
- *     *
- *
- *      *   Return: Always 0
- *
- *       */
-
+ * main -  prints _putchar, then a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
-
 {
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-		char str[] = "_putchar";
-
-			int length = strlen(str), i;
-
-
-
-				for (i = 0; i < length; i++)
-
-							_putchar(str[i]);
-
-					_putchar('\n');
-
-						return (0);
-
+	return (0);
 }
